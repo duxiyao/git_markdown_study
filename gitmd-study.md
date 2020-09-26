@@ -17,3 +17,8 @@ git clone [url] 下载一个项目和它的整个代码历史
 
 ## git常见错误
 [git报错ssh: connect to host github.com port 22: Connection timed out](https://blog.csdn.net/nightwishh/article/details/99647545)
+
+
+
+在windows下，会报错  git 踩坑 warning: LF will be replaced by CRLF in .idea/misc.xml. The file will have its original line
+，敲入命令 git config --global core.autocrlf false
